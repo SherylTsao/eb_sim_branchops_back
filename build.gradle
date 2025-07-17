@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /*plugins {
+=======
+plugins {
+>>>>>>> 4230fb99650d75a5e1011c1d32d5247d38d71435
 	id 'java'
 	id 'org.springframework.boot' version '3.5.3'
 	id 'io.spring.dependency-management' version '1.1.7'
@@ -11,6 +15,7 @@ java {
 	toolchain {
 		languageVersion = JavaLanguageVersion.of(17)
 	}
+<<<<<<< HEAD
 }*/
 
 plugins {
@@ -26,6 +31,10 @@ java {
 }
 
 
+=======
+}
+
+>>>>>>> 4230fb99650d75a5e1011c1d32d5247d38d71435
 repositories {
 	mavenCentral()
 }
@@ -35,6 +44,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+<<<<<<< HEAD
 	//implementation 'org.springframework.boot:spring-boot-starter-security'
 	
 	
@@ -43,13 +53,18 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	// open api
 	implementation 'org.springdoc:springdoc-openapi-ui:1.7.0'
+=======
+>>>>>>> 4230fb99650d75a5e1011c1d32d5247d38d71435
 }
 
 tasks.named('test') {
 	useJUnitPlatform()
 }
+<<<<<<< HEAD
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
 
+=======
+>>>>>>> 4230fb99650d75a5e1011c1d32d5247d38d71435

@@ -8,9 +8,6 @@ public class EbSimBranchopsBackApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EbSimBranchopsBackApplication.class, args);
-		
-		
-		System.out.println();
 	}
 
 }
